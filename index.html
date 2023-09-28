@@ -14,10 +14,10 @@
 
 <body>
     <!-- Barra de navegação Bootstrap -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">
             <img src="assets/dog.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
-            AUTOBOTS 
+            AUTOBOTS
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,32 +27,44 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
+                    <a class='nav-link' href="sobre.html">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
                 </li>
             </ul>
         </div>
 
     </nav>
 
-    <div class="container mt-5">
-        <header class="text-center">
-            <h1>AUTOBOTS - Grupo de Estudos de Robótica e Automação 
-            </h1>
+    <div class="container">
+        <header class="text-center" style="margin-top: 5em">
+            <h3 style="font-weight: bold;">
+                AUTOBOTS - Grupo de Estudos de Robótica e Automação
+            </h3>
         </header>
 
         <section class="about mt-5">
             <div class="row">
                 <div class="col-md-6">
                     <h2>Sobre o Projeto</h2>
-                    <p class="justify">O projeto tem como objetivo promover a educação tecnológica e a inovação, utilizando a robótica educativa como ferramenta central de ensino. Por meio da colaboração com diferentes setores do campus, busca-se integrar conhecimentos e recursos para enriquecer a experiência dos participantes. Além disso, a execução de oficinas de robótica educativa nas escolas públicas da região de Machado visa inspirar e capacitar os estudantes, preparando-os para enfrentar os desafios do mundo contemporâneo por meio do aprendizado prático e criativo.</p>
+                    <p class="justify">O projeto tem como objetivo promover a educação tecnológica e a inovação,
+                        utilizando a robótica educativa como ferramenta central de ensino. Por meio da colaboração com
+                        diferentes setores do campus, busca-se integrar conhecimentos e recursos para enriquecer a
+                        experiência dos participantes. Além disso, a execução de oficinas de robótica educativa nas
+                        escolas públicas da região de Machado visa inspirar e capacitar os estudantes, preparando-os
+                        para enfrentar os desafios do mundo contemporâneo por meio do aprendizado prático e criativo.
+                    </p>
+                    <button id="btSaibaMais" class="btn btn-info" type="button">Saiba Mais</button>
                 </div>
                 <div class="col-md-6">
                     <img src="assets/BigLogo.png" alt="Imagem sobre o projeto" class="img-fluid">
                 </div>
             </div>
+
         </section>
 
         <section class="project-actions mt-5" id="actions-table">
@@ -72,10 +84,13 @@
 
         <section class="impact mt-5">
             <h2>Nosso Impacto</h2>
-            <p>Beneficiamos a comunidade ao promover a educação tecnológica e a inovação, utilizando a robótica educativa como ferramenta central de ensino, enriquecendo a experiência dos participantes e capacitando os estudantes das escolas públicas de Machado e região para os desafios do mundo contemporâneo por meio do aprendizado prático e criativo.</p>
+            <p>Beneficiamos a comunidade ao promover a educação tecnológica e a inovação, utilizando a robótica
+                educativa como ferramenta central de ensino, enriquecendo a experiência dos participantes e capacitando
+                os estudantes das escolas públicas de Machado e região para os desafios do mundo contemporâneo por meio
+                do aprendizado prático e criativo.</p>
         </section>
 
-       <!-- <section class="donate mt-5 text-center">
+        <!-- <section class="donate mt-5 text-center">
             <h2>Agende uma Visita</h2>
             <p class="justify" style="text-align: center;">Entre em contato conosco para agendar um horário para conhecer o laboratório.</p>
             <button class="btn btn-primary" id="donateBtn">Contato</button>

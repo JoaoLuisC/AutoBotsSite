@@ -1,9 +1,23 @@
-/* Classe personalizada com tom de azul */
-.custom-blue-header {
-    background-color: #007bff; /* Tom de azul personalizado */
-    color: #fff; /* Cor do texto */
+body {
+    font-family: Arial, Helvetica, sans-serif; 
 }
 
 .justify, td {
     text-align: justify;
 }
+
+#sectionCarrousel {
+    margin-top: 5em;
+}
+
+.slideCarrousel {
+    max-width: 100%;
+    height: auto;
+}
+
+.custom-carousel-section {
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+
