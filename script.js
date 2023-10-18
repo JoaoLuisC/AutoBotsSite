@@ -1,6 +1,17 @@
-document.getElementById("btSaibaMais").addEventListener('click', function () {
-    window.location.href = "sobre.html";
-})
+// navbar.js
+function loadNavbar() {
+    const navbarContainer = document.getElementById("navbar-container");
+
+    fetch('nav.html')
+        .then(response => response.text())
+        .then(data => {
+            navbarContainer.innerHTML = data;
+        })
+        .catch(error => {
+            console.error('Erro ao carregar a barra de navegação:', error);
+        });
+}
+document.addEventListener("DOMContentLoaded", loadNavbar);
 
 function loadCSV() {
     // Caminho para o arquivo CSV
@@ -83,3 +94,7 @@ function initGoogleSheetsApi() {
 // Carrega a API do Google Sheets e inicia a aplicação
 gapi.load('client', initGoogleSheetsApi);
 
+
+document.getElementById("btSaibaMais").addEventListener('click', function () {
+    window.location.href = "sobre.html";
+})
