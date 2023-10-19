@@ -35,7 +35,7 @@ body {
     grid-template-columns: auto auto;
 }
 
-#titulo-main-contato, #titulo-desenvolvedores, .h6-desenvolvedores, .p-descricao, #p-endereco {
+#titulo-main-contato, #titulo-desenvolvedores, .h6-desenvolvedores, .p-descricao, #p-endereco, .item-grid2, .item-grid {
     text-align: center;
 }
 
@@ -55,7 +55,7 @@ body {
 }
 
 .item-grid {
-    padding: 40px;
+    padding: 20px;
     margin: auto;
 }
 
@@ -65,9 +65,11 @@ body {
 }
 
 .imgs-logo {
-    width: 250px;
+    width: 70%;
     border-radius: 50%;
+    border: .5px solid black;
 }
+
 
 .bolinhas {
     display: flex; 
