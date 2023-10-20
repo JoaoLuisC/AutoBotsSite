@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="assets/logoAuto.png" type="image/x-icon">
+    <title>Sobre</title>
+</head>
+
+<body>
+
+    <header>
+        <div id="navbar-container"></div>
+    </header>
+
+    <main id="main-projetos">
+
+        <div class="card">
+            <div class="card-image-1"></div>
+            <div class="card-info">
+                <h2>Título do Card</h2>
+                <p>Informações adicionais aqui.</p>
+            </div>
+            <div class="card-button">
+                <button onclick="openModal(1)">Botão</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-image-2"></div>
+            <div class="card-info">
+                <h2>Título do Card</h2>
+                <p>Informações adicionais aqui.</p>
+            </div>
+            <div class="card-button">
+                <button onclick="openModal(2)">Botão</button>
+            </div>
+        </div>
+
+        <div id="modal-bg" class="modal-bg" onclick="closeModal()">
+            <div class="modal-content">
+                <img src="/assets/arcade.jpg" alt="">
+                <h2>Conteúdo do Modal</h2>
+                <p>Link para o git Hub</p>
+                <div class="modal-button">
+                <button onclick="closeModal()">Fechar</button>
+            </div>
+        </div>    
+    
+    </main>
+
+    <footer>
+        <div id="footer-container"></div>
+    </footer>
+
+    <!-- Inclua o Bootstrap JavaScript e o jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script src="navbar.js"></script>
+    <script src="footer.js"></script>
+</body>
+
+</html>

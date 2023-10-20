@@ -80,6 +80,17 @@ function initGoogleSheetsApi() {
 gapi.load('client', initGoogleSheetsApi);
 
 
-document.getElementById("btSaibaMais").addEventListener('click', function () {
-    window.location.href = "sobre.html";
+document.getElementById("btnProjetos").addEventListener('click', function () {
+    window.location.href = "projetos.html";
 })
+
+function openModal(cardNumber) {
+    var modal = document.getElementById("modal-bg");
+    modal.style.display = "flex"; // Exibir o modal
+}
+
+function closeModal() {
+    var modal = document.getElementById("modal-bg");
+    modal.style.display = "none"; // Ocultar o modal
+}
+
