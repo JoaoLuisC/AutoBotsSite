@@ -5,6 +5,10 @@
     --text: #FFF;
 }
 
+.bg-color {
+    background-color: var(--bg);
+}
+
 html,
 body {
     font-family: "Poppins";
@@ -17,7 +21,6 @@ td {
 
 #btnProjetos:hover {
     background-color: rgb(56, 56, 110);
-    ;
 }
 
 /* Carousel */
@@ -37,140 +40,10 @@ td {
 
 /* --------------------------- */
 
-.bg-color {
-    background-color: var(--bg);
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-#titulo-main-contato,
-#titulo-desenvolvedores,
-.h6-desenvolvedores,
-.p-descricao,
-#p-endereco,
-.item-grid2,
-.item-grid {
-    text-align: center;
-}
-
-#titulo-desenvolvedores {
-    padding: 30px;
-}
-
-#div-contato {
-    border: 2px solid black;
-    border-radius: 8px;
-    width: 60%;
-    margin: auto;
-}
-
-#main-contato {
-    margin-top: 80px;
-}
-
-.item-grid {
-    padding: 20px;
-    margin: auto;
-}
-
-.item-grid2 {
-    padding: 10px;
-    margin: auto;
-}
-
-.imgs-logo {
-    width: 70%;
-    border-radius: 50%;
-    border: .5px solid black;
-}
-
-/* Bolinhas */
-.bolinhas {
-    display: flex;
-    gap: 2%;
-    justify-content: center;
-    padding: 40px;
-}
-
-.bolinhas span {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: var(--bg);
-}
-
-/* --------------------------- */
-
-.h6-desenvolvedores {
-    font-weight: bold;
-    padding-top: 10px;
-}
-
-/* Google Maps API*/
-.mapbox {
-    padding: 50px;
-    padding-top: 0px;
-}
-
-.mapbox iframe {
-    width: 100%;
-    height: 300px;
-}
-
-#titulo-localizacao {
-    font-weight: bold;
-    text-align: center;
-}
 
 /* --------------------------- */
 
 /* Footer */
-.footer {
-    width: 100%;
-    height: 80px;
-    border: 1px solid black;
-    background-color: var(--bg);
-    color: var(--text);
-}
-
-.grid-container-footer {
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-.item-grid-footer {
-    padding: 10px;
-    margin: auto;
-}
-
-#box1-footer {
-    border-right: solid var(--text);
-    border-width: thin;
-}
-
-.p-footer,
-.p-footer+p {
-    font-weight: 100;
-    font-size: 12px;
-}
-
-.p-footer+p,
-.logos-footer {
-    text-align: center;
-}
-
-.p-footer,
-#box1-footer h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-#iflogo {
-    height: 16px;
-}
 
 /* --------------------------- */
 

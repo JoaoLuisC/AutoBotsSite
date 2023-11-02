@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+
+:root {
+    --bg: #2c2b54;
+    --text: #FFF;
+}
+
+html,
+body {
+    font-family: "Poppins";
+}
+
+.bg-color {
+    background-color: var(--bg);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#titulo-main-contato,
+#p-endereco,
+.item-grid2,
+.item-grid {
+    text-align: center;
+}
+
+#main-contato {
+    margin-top: 80px;
+}
+
+.item-grid {
+    padding: 20px;
+    margin: auto;
+}
+
+.item-grid2 {
+    padding: 10px;
+    margin: auto;
+}
+
+ /* ------------------------- */
+
+ .div-contatos {
+    margin: 5%;
+    padding: 1.5%;
+    border: 1px solid black;
+    border-radius: 6px;
+ }
+
+ .foto-coord {
+    width: 35%;
+    border-radius: 50%;
+    border: 1px solid black;
+ }
+
+ .descricao-coordenador {
+    padding:12px;
+    text-align: left;
+ }
+
+ .foto-desenvolvedor {
+    width: 20%;
+    border-radius: 50%;
+    border: 1px solid black;
+    text-align: center;
+    margin: 5px;
+ }
+
+ .div-desenvolvedores, .container-1 {
+    display: flex;
+    align-items: center;
+ }
+
+ .container-1 {
+    border-right: 1px solid black;
+ }
+
+ .p-descricao {
+    text-align: left;
+    padding: 12px;
+    margin-left: 15px;
+ }
+
+ .div-desenvolvedores {
+    justify-content: center;
+ }
+
+
+ /* ------------------------- */
+/* Bolinhas */
+.bolinhas {
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    padding: 40px;
+}
+
+.bolinhas span {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--bg);
+}
+
+/* --------------------------- */
+
+.h6-desenvolvedores {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+/* Google Maps API*/
+.mapbox {
+    padding: 50px;
+    padding-top: 0px;
+}
+
+.mapbox iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 7px;
+}
+
+#titulo-localizacao {
+    font-weight: bold;
+    text-align: center;
+}
