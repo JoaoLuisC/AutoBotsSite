@@ -14,40 +14,6 @@ body {
     font-family: "Poppins";
 }
 
-.justify,
-td {
-    text-align: justify;
-}
-
-#btnProjetos:hover {
-    background-color: rgb(56, 56, 110);
-}
-
-/* Carousel */
-#sectionCarrousel {
-    margin-top: 5em;
-}
-
-.slideCarrousel {
-    max-width: 100%;
-    height: auto;
-}
-
-.custom-carousel-section {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-/* --------------------------- */
-
-
-/* --------------------------- */
-
-/* Footer */
-
-/* --------------------------- */
-
-/* Projetos */
 #main-projetos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -143,5 +109,3 @@ td {
     border-radius: 5px;
     cursor: pointer;
 }
-
-/* --------------------------- */

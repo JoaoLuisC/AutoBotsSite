@@ -5,8 +5,7 @@
     --text: #FFF;
 }
 
-html,
-body {
+* {
     font-family: "Poppins";
 }
 
@@ -30,6 +29,10 @@ body {
     margin-top: 80px;
 }
 
+#main-contato h1 {
+    margin: 5px;
+}
+
 .item-grid {
     padding: 20px;
     margin: auto;
@@ -40,55 +43,96 @@ body {
     margin: auto;
 }
 
- /* ------------------------- */
+/* ------------------------- */
 
- .div-contatos {
+.sectionSociais {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin: 5%;
+}
+
+.sectionSociais div {
+    margin-top: 20px;
+    width: 175px;
+    height: 175px;
+    background-color: var(--bg);
+    border-radius: 6px;
+    box-shadow: 0 0.1rem 0.5rem var(--bg);
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    transition: margin-top 0.3s;
+}
+
+.sectionSociais div:hover {
+    margin-top: -2px;
+}
+
+.sectionSociais div i {
+    color: white;
+    font-size: 160px;
+}
+
+.sectionSociais div a {
+    text-align: center;
+}
+
+.sectionSociais div img {
+    width: 65%;
+}
+
+/* ------------------------- */
+
+.div-contatos {
     margin: 5%;
     padding: 1.5%;
-    border: 1px solid black;
+    border: 2px solid var(--bg);
     border-radius: 6px;
- }
+    box-shadow: 0 0.1rem 0.5rem var(--bg);
+}
 
- .foto-coord {
+.foto-coord {
     width: 35%;
     border-radius: 50%;
     border: 1px solid black;
- }
+}
 
- .descricao-coordenador {
-    padding:12px;
+.descricao-coordenador {
+    padding: 12px;
     text-align: left;
- }
+}
 
- .foto-desenvolvedor {
+.foto-desenvolvedor {
     width: 20%;
     border-radius: 50%;
     border: 1px solid black;
     text-align: center;
     margin: 5px;
- }
+}
 
- .div-desenvolvedores, .container-1 {
+.div-desenvolvedores,
+.container-1 {
     display: flex;
     align-items: center;
- }
+}
 
- .container-1 {
-    border-right: 1px solid black;
- }
+.container-1 {
+    border-right: 1px solid var(--bg);
+}
 
- .p-descricao {
+.p-descricao {
     text-align: left;
     padding: 12px;
     margin-left: 15px;
- }
+}
 
- .div-desenvolvedores {
+.div-desenvolvedores {
     justify-content: center;
- }
+}
 
 
- /* ------------------------- */
+/* ------------------------- */
 /* Bolinhas */
 .bolinhas {
     display: flex;
