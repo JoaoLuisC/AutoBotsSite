@@ -26,11 +26,13 @@
 }
 
 #main-contato {
-    margin-top: 80px;
+    margin-top: 7%;
 }
 
 #main-contato h1 {
     margin: 5px;
+    font-size: 50px;
+    margin-bottom: 0;
 }
 
 .item-grid {
@@ -49,7 +51,7 @@
     display: flex;
     gap: 50px;
     justify-content: center;
-    margin: 5%;
+    margin: 4.5%;
 }
 
 .sectionSociais div {
@@ -72,6 +74,10 @@
 .sectionSociais div i {
     color: white;
     font-size: 160px;
+}
+
+#email {
+    font-size: 140px;
 }
 
 .sectionSociais div a {
@@ -133,12 +139,13 @@
 
 
 /* ------------------------- */
+
 /* Bolinhas */
 .bolinhas {
     display: flex;
     gap: 2%;
     justify-content: center;
-    padding: 40px;
+    padding: 20px;
 }
 
 .bolinhas span {

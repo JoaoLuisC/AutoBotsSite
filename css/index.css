@@ -37,11 +37,15 @@ td {
 /* --------------- */
 
 .h3-principal {
-    font-weight: bold;
     margin-top: 6rem;
     text-align: center;
+    font-size: 38px;
+}
+
+b {
+    font-size: 45px;
 }
 
 .impact {
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
