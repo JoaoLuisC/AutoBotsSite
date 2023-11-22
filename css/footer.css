@@ -46,8 +46,10 @@ body {
 
 .logos-footer {
     display: flex;
-    gap: 3px;
+    gap: 10px;
     justify-content: center;
+    align-items: center;
+    height: 24px;
 }
 
 .p-footer,
@@ -57,17 +59,21 @@ body {
 }
 
 #iflogo {
-    height: 22px;
+    text-align: center;
 }
 
 .itensSociais {
     border: 1px solid white;
     border-radius: 50%;
-    padding: 2px;
-    align-items: center;
+    padding: 3px;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+    width: 24px;
 }
 
-div a, div a:hover {
+div a,
+div a:hover {
     text-decoration: none;
     color: white;
 }
