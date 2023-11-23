@@ -75,10 +75,13 @@ body {
 div a,
 div a:hover {
     text-decoration: none;
-    color: white;
 }
 
 div a i {
     color: white;
     font-size: 16px;
+}
+
+.p-footer {
+    color: white;
 }
