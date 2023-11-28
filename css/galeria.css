@@ -35,3 +35,7 @@ body {
 #btnGaleria {
     margin-top: 5%;
 }
+
+#btnGaleria a {
+    color: #FFF;
+}
