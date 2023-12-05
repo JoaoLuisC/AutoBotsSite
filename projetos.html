@@ -4,10 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/projetos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" href="../assets/logoAuto.png" type="image/x-icon">    
+    <link rel="stylesheet" type="text/css" href="../css/projetos.css">
     <link rel="icon" href="assets/logoAuto.png" type="image/x-icon">
-    <title>Sobre</title>
+    <title>Projetos</title>
 </head>
 
 <body>
@@ -16,39 +20,81 @@
         <div id="navbar-container"></div>
     </header>
 
-    <main id="main-projetos">
+    <main class="container">
+        <h3 class="h3-principal title">
+            <b>AUTOBOTS</b>
+            <br>
+            Banco de Projetos Autobots
+        </h3>
 
-        <div class="card">
-            <div class="card-image-1"></div>
-            <div class="card-info">
-                <h2>Título do Card</h2>
-                <p>Informações adicionais aqui.</p>
-            </div>
-            <div class="card-button">
-                <button onclick="openModal(1)">Botão</button>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-image-2"></div>
-            <div class="card-info">
-                <h2>Título do Card</h2>
-                <p>Informações adicionais aqui.</p>
-            </div>
-            <div class="card-button">
-                <button onclick="openModal(2)">Botão</button>
-            </div>
-        </div>
+        <section class="row row-cols-1 row-cols-md-4 g-4" id="project-container">
+            <!-- Conteúdo dos cards vai aqui -->
+        </section>
 
-        <div id="modal-bg" class="modal-bg" onclick="closeModal()">
+        <!-- Modal -->
+        <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-md">
             <div class="modal-content">
-                <img src="assets/arcade.jpg" alt="">
-                <h2>Conteúdo do Modal</h2>
-                <p>Link para o git Hub</p>
-                <div class="modal-button">
-                <button onclick="closeModal()">Fechar</button>
+                <div class="modal-header">
+                <h5 class="modal-title" id="projectModalLabel">Detalhes do Projeto</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body" id="projectModalBody">
+                <!-- Conteúdo do modal vai aqui -->
+                </div>
             </div>
-        </div>    
+            </div>
+        </div>
+
+       <!-- Como adicionar ao projeto -->
+       <section class="section-add-projetos">
+
+        <button type="button" class="btn bg-color btn-secondary btn-lg d-block mx-auto mb-5" id="button-add-projetos" data-toggle="modal" data-target="#myModal">
+            Como adicionar projetos
+        </button>
     
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="myModalLabel">Como adicionar projetos:</h5>
+                    </div>
+                    <div class="modal-body">
+    
+                        <div class="div-instrucoes">
+                            <p>Para adicionar um novo projeto ao banco de dados, siga as instruções abaixo:</p>
+    
+                            <ol class="ol-desc row row-cols-1">
+                                <li class="div-instrucoes-li li-intrucoes">Solicite permissão ao professor responsável.</li>
+                                <li class="div-instrucoes-li li-intrucoes">Inclua os dados na planilha na seguinte ordem:
+                                    <ol class="ol-desc-execelInsert">
+                                        <li>Link do repositório</li>
+                                        <li>Descrição do projeto</li>
+                                        <li>Nome do projeto</li>
+                                        <li>Link da imagem no repositório</li>
+                                    </ol>
+                                </li>
+                                <li class="div-instrucoes-li li-intrucoes">Crie um arquivo README.md no repositório para melhor visualização.</li>
+                            </ol>
+    
+                        </div>
+    
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+       
+       
+
+
+
     </main>
 
     <footer>
@@ -56,12 +102,15 @@
     </footer>
 
     <!-- Inclua o Bootstrap JavaScript e o jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="javascript/script.js"></script>
-    <script src="javascript/navbar.js"></script>
-    <script src="javascript/footer.js"></script>
+    <script src="../javascript/projects.js"></script>
+    <script src="../javascript/navbar.js"></script>
+    <script src="../javascript/footer.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
 </body>
 
 </html>
