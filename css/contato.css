@@ -196,6 +196,10 @@
 }
 
 @media (max-width: 570px) {
+    #main-contato h1 {
+        font-size: 48px;
+    }
+
     .sectionSociais{
         display: block;
     }
@@ -213,5 +217,24 @@
     #email {
         font-size: 155px;
     }
+}
 
+@media (max-width: 480px) {
+    #main-contato h1 {
+        font-size: 45px;
+    }
+
+    .sectionSociais div {
+        width: 150px;
+        height: 150px;
+        margin: 3% auto;
+    }
+
+    .sectionSociais div i {
+        font-size: 130px;
+    }
+    
+    #email {
+        font-size: 120px;
+    }
 }

@@ -16,6 +16,7 @@ body {
     border: 1px solid black;
     background-color: var(--bg);
     color: var(--text);
+    box-shadow: 0 0.1rem 0.5rem var(--bg);
 }
 
 .grid-container-footer {
