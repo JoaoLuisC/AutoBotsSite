@@ -87,3 +87,13 @@ div a i {
 .p-footer {
     color: white;
 }
+
+@media (max-width: 480px) {
+    .grid-container-footer {
+        grid-template-columns: 1fr auto;
+    }
+
+    .box-sociais {
+        display: none;
+    }
+}
