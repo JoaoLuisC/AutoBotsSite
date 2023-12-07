@@ -23,6 +23,10 @@ body {
 
 }
 
+#main-projects {
+    padding: 0 5% 5% 5%;
+}
+
 @media screen and (max-width: 650px) {
     #titulo-main-galeria {
         padding-bottom: 3%;
