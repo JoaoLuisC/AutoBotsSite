@@ -50,3 +50,9 @@ b {
 .impact {
     margin-bottom: 5rem;
 }
+
+@media (max-width: 768px) {
+    #btnProjetos {
+        margin-bottom: 5%;
+    }
+}
