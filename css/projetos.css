@@ -15,21 +15,21 @@ body {
     caret-color: transparent;
 }
 
-.title{
+.title {
     margin-top: 6rem;
     text-align: center;
     font-size: 38px;
     padding-bottom: 1em;
 }
 
-#project-container{
+#project-container {
     padding-bottom: 3em;
 }
 
-.li-intrucoes{
-   padding-bottom: 1em;
+.li-intrucoes {
+    padding-bottom: 1em;
 }
 
-#btnGaleria-a{
-    font-size:100px ;
+#btnGaleria-a {
+    font-size: 100px;
 }

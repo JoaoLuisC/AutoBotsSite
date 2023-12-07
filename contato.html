@@ -58,7 +58,8 @@
                     <p>
                     <h5><strong>Coordernador</strong> Prof. Dr. Matheus Franco</h5>
                     <i class="fa-solid fa-envelope"></i>
-                    <a href="matheus.franco@ifsuldeminas.edu.br">matheus.franco@ifsuldeminas.edu.br</a>
+                    <a class="mudarEmail"
+                        href="matheus.franco@ifsuldeminas.edu.br">matheus.franco@ifsuldeminas.edu.br</a>
                     <br>
                     <i class="fa-brands fa-linkedin"></i>
                     <a href="https://www.linkedin.com/in/matheusefranco/">linkedin.com/in/matheusefranco/</a>
@@ -66,7 +67,7 @@
                 </div>
             </div>
 
-            <div class="container-2">
+            <div>
                 <div class="div-desenvolvedores">
                     <img class="foto-desenvolvedor" src="assets/joao.JPG" alt="Foto João">
                     <p class="p-descricao">
@@ -125,6 +126,27 @@
     <script src="javascript/script.js"></script>
     <script src="javascript/navbar.js"></script>
     <script src="javascript/footer.js"></script>
+    <!-- <script>
+        // Verifica a largura da tela ao carregar a página
+        window.addEventListener('load', checkScreenWidth);
+
+        // Verifica a largura da tela ao redimensionar a janela
+        window.addEventListener('resize', checkScreenWidth);
+
+        function checkScreenWidth() {
+            var textElement = document.querySelector('.mudarEmail');
+
+            // Lógica para mudar o conteúdo com base na largura da tela
+            if (window.innerWidth < 1100) {
+                textElement.textContent = 'E-mail';
+            } else {
+                if(textElement.textContent == "matheus.franco@ifsuldeminas.edu.br")
+                textElement.textContent = 'teste';
+            }
+        }
+
+
+    </script> -->
 </body>
 
 </html>

@@ -36,13 +36,9 @@
     margin-bottom: 0;
 }
 
-.item-grid {
-    padding: 20px;
-    margin: auto;
-}
-
+.item-grid,
 .item-grid2 {
-    padding: 10px;
+    padding: 20px;
     margin: auto;
 }
 
@@ -62,9 +58,9 @@
     background-color: var(--bg);
     border-radius: 6px;
     box-shadow: 0 0.1rem 0.5rem var(--bg);
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: margin-top 0.3s;
 }
 
@@ -183,6 +179,45 @@
 
 /* --------------------------- */
 
+@media(max-width: 1228px) {
+
+    .descricao-coordenador,
+    .p-descricao {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .foto-coord {
+        width: 30%;
+    }
+
+    .div-contatos {
+        display: block;
+    }
+
+    .container-1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        border-right: none;
+        border-bottom: 2px solid var(--bg);
+    }
+
+    .div-desenvolvedores {
+        margin-top: 2%;
+    }
+
+    .descricao-coordenador {
+        font-size: 15px;
+        text-align: center;
+    }
+
+}
+
 @media (max-width: 768px) {
     .sectionSociais {
         gap: 30px;
@@ -196,6 +231,10 @@
         color: white;
         font-size: 9rem;
     }
+
+    .descricao-coordenador {
+        font-size: 0.9em;
+    }
 }
 
 @media (max-width: 570px) {
@@ -203,7 +242,7 @@
         font-size: 48px;
     }
 
-    .sectionSociais{
+    .sectionSociais {
         display: block;
     }
 
@@ -216,7 +255,7 @@
     .sectionSociais div i {
         font-size: 175px;
     }
-    
+
     #email {
         font-size: 155px;
     }
@@ -236,8 +275,14 @@
     .sectionSociais div i {
         font-size: 130px;
     }
-    
+
     #email {
         font-size: 120px;
+    }
+}
+
+@media (max-width: 455px) {
+    .descricao-coordenador {
+        font-size: 13px;
     }
 }
