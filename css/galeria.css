@@ -12,6 +12,7 @@
 html,
 body {
     font-family: "Poppins";
+    caret-color: transparent;
 }
 
 #titulo-main-galeria {

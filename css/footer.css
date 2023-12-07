@@ -8,6 +8,7 @@
 html,
 body {
     font-family: "Poppins";
+    caret-color: transparent;
 }
 
 .footer {
