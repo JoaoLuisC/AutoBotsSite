@@ -58,8 +58,7 @@
                     <p>
                     <h5><strong>Coordernador</strong> Prof. Dr. Matheus Franco</h5>
                     <i class="fa-solid fa-envelope"></i>
-                    <a class="mudarEmail"
-                        href="matheus.franco@ifsuldeminas.edu.br">matheus.franco@ifsuldeminas.edu.br</a>
+                    <a href="matheus.franco@ifsuldeminas.edu.br">matheus.franco@ifsuldeminas.edu.br</a>
                     <br>
                     <i class="fa-brands fa-linkedin"></i>
                     <a href="https://www.linkedin.com/in/matheusefranco/">linkedin.com/in/matheusefranco/</a>
@@ -74,13 +73,14 @@
                         João Luís Cardoso | <strong>Desenvolvedor</strong>
                         <br>
                         <i class="fa-solid fa-envelope"></i>
-                        <a href="mailto:Joao.lc12@hotmail.com">Joao.lc12@hotmail.com</a>
+                        <a id="emailJoao" href="mailto:Joao.lc12@hotmail.com">Joao.lc12@hotmail.com</a>
                         <br>
                         <i class="fa-brands fa-linkedin"></i>
-                        <a href="https://www.linkedin.com/in/JoaoLuisCardoso/">linkedin.com/in/JoaoLuisCardoso/</a>
+                        <a id="linkedinJoao"
+                            href="https://www.linkedin.com/in/JoaoLuisCardoso/">linkedin.com/in/JoaoLuisCardoso/</a>
                         <br>
                         <i class="fa-brands fa-github"></i>
-                        <a href="https://github.com/joaoluisc">github.com/joaoluisc</a>
+                        <a id="gitJoao" href="https://github.com/joaoluisc">github.com/joaoluisc</a>
                     </p>
                 </div>
 
@@ -90,17 +90,18 @@
                         Leonardo Paiva | <strong>Desenvolvedor</strong>
                         <br>
                         <i class="fa-solid fa-envelope"></i>
-                        <a href="mailto:paivaleo7@gmail.com">paivaleo7@gmail.com</a>
+                        <a id="emailLeonardo" href="mailto:paivaleo7@gmail.com">paivaleo7@gmail.com</a>
                         <br>
                         <i class="fa-brands fa-linkedin"></i>
-                        <a href="https://www.linkedin.com/in/leonardopaiva12/">linkedin.com/in/leonardopaiva12/</a>
+                        <a id="linkedinLeonardo"
+                            href="https://www.linkedin.com/in/leonardopaiva12/">linkedin.com/in/leonardopaiva12/</a>
                         <br>
                         <i class="fa-brands fa-github"></i>
-                        <a href="https://github.com/leopaivap">github.com/leopaivap</a>
+                        <a id="gitLeonardo" href="https://github.com/leopaivap">github.com/leopaivap</a>
                     </p>
                 </div>
             </div>
-        </div>
+
 
     </main>
 
@@ -119,34 +120,13 @@
         <div id="footer-container"></div>
     </footer>
 
-    <!-- Inclua o Bootstrap JavaScript e o jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="javascript/script.js"></script>
     <script src="javascript/navbar.js"></script>
     <script src="javascript/footer.js"></script>
-    <!-- <script>
-        // Verifica a largura da tela ao carregar a página
-        window.addEventListener('load', checkScreenWidth);
-
-        // Verifica a largura da tela ao redimensionar a janela
-        window.addEventListener('resize', checkScreenWidth);
-
-        function checkScreenWidth() {
-            var textElement = document.querySelector('.mudarEmail');
-
-            // Lógica para mudar o conteúdo com base na largura da tela
-            if (window.innerWidth < 1100) {
-                textElement.textContent = 'E-mail';
-            } else {
-                if(textElement.textContent == "matheus.franco@ifsuldeminas.edu.br")
-                textElement.textContent = 'teste';
-            }
-        }
-
-
-    </script> -->
+    <script src="javascript/contato.js"></script>
 </body>
 
 </html>
