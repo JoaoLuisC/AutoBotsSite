@@ -15,3 +15,7 @@ body {
     height: 62px;
     box-shadow: 0 0.1rem 0.5rem var(--bg);
 }
+
+nav a img {
+    margin-left: 5%;
+}
