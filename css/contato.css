@@ -1,31 +1,30 @@
+/* Importação de fontes */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
 
+/* Variáveis Globais */
 :root {
     --bg: #2c2b54;
     --text: #FFF;
 }
 
+/* Estilos Globais */
 * {
     font-family: "Poppins";
     caret-color: transparent;
 }
 
+/* Cor de Fundo */
 .bg-color {
     background-color: var(--bg);
 }
 
+/* Grade de Contêiner */
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-#main-contato h1,
-#p-endereco,
-.item-grid2,
-.item-grid {
-    text-align: center;
-}
-
+/* Estilos da Seção de Contato */
 #main-contato {
     margin-top: 2.5rem;
 }
@@ -36,19 +35,25 @@
     text-align: center;
 }
 
+#main-contato h1,
+#p-endereco,
+.item-grid2,
+.item-grid {
+    text-align: center;
+}
+
 .item-grid,
 .item-grid2 {
     padding: 20px;
     margin: auto;
 }
 
-/* ------------------------- */
-
+/* Estilos da Seção de Mídia Social */
 .sectionSociais {
     display: flex;
     gap: 50px;
     justify-content: center;
-    margin: 4.5%;
+    margin: 2% 4.5% 4.5% 4.5%;
 }
 
 .sectionSociais div {
@@ -69,7 +74,7 @@
 }
 
 .sectionSociais div i {
-    color: white;
+    color: var(--text);
     font-size: 160px;
 }
 
@@ -85,8 +90,7 @@
     width: 65%;
 }
 
-/* ------------------------- */
-
+/* Estilos da Seção de Contatos */
 .div-contatos {
     margin: 5%;
     padding: 1.5%;
@@ -95,24 +99,22 @@
     box-shadow: 0 0.1rem 0.5rem var(--bg);
 }
 
-.foto-coord {
-    width: 35%;
-    border-radius: 50%;
-    border: 1px solid black;
-}
-
-.descricao-coordenador {
-    padding: 12px;
-    text-align: left;
-    font-size: 1em;
-}
-
+.foto-coord,
 .foto-desenvolvedor {
     width: 20%;
     border-radius: 50%;
     border: 1px solid black;
-    text-align: center;
-    margin: 5px;
+}
+
+.foto-coord {
+    width: 35%;
+}
+
+.descricao-coordenador,
+.p-descricao {
+    padding: 12px;
+    text-align: left;
+    font-size: 1em;
 }
 
 .div-desenvolvedores,
@@ -135,10 +137,7 @@
     justify-content: center;
 }
 
-
-/* ------------------------- */
-
-/* Bolinhas */
+/* Estilos das Bolinhas */
 .bolinhas {
     display: flex;
     gap: 2%;
@@ -153,14 +152,13 @@
     background-color: var(--bg);
 }
 
-/* --------------------------- */
-
+/* Estilos da Seção de Desenvolvedores */
 .h6-desenvolvedores {
     font-weight: bold;
     padding-top: 10px;
 }
 
-/* Google Maps API*/
+/* Estilos da API do Google Maps */
 .mapbox {
     padding: 50px;
     padding-top: 0px;
@@ -177,9 +175,8 @@
     text-align: center;
 }
 
-/* --------------------------- */
-
-@media(max-width: 1228px) {
+/* Consultas de Mídia */
+@media (max-width: 1228px) {
 
     .descricao-coordenador,
     .p-descricao {
@@ -188,7 +185,6 @@
 }
 
 @media (max-width: 1000px) {
-
     .foto-coord {
         width: 30%;
     }
@@ -215,7 +211,6 @@
         font-size: 15px;
         text-align: center;
     }
-
 }
 
 @media (max-width: 768px) {
@@ -228,7 +223,7 @@
     }
 
     .sectionSociais div i {
-        color: white;
+        color: var(--text);
         font-size: 9rem;
     }
 
