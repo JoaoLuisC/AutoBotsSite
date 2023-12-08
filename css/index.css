@@ -1,57 +1,78 @@
+/* Importação de fontes */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
 
+/* Variáveis Globais */
 :root {
     --bg: #2c2b54;
     --text: #FFF;
 }
 
+/* Estilo de Fundo */
 .bg-color {
     background-color: var(--bg);
 }
 
+/* Estilos Globais para HTML e Body */
 html,
 body {
     font-family: "Poppins";
     caret-color: transparent;
 }
 
+/* Estilos de Justificação e Tabelas */
 .justify,
 td {
     text-align: justify;
 }
 
+/* Estilos para o Botão de Projetos ao Passar o Mouse */
 #btnProjetos:hover {
     background-color: rgb(56, 56, 110);
 }
 
-
-/* Carousel */
+/* Estilos para a Seção de Carrossel */
 #sectionCarrousel {
     margin-top: 5em;
 }
 
+/* Estilos para Itens do Carrossel */
 .carousel-item {
     max-width: 100%;
-    height: 350px
+    height: 350px;
 }
 
-/* --------------- */
-
+/* Estilos para Títulos Principais */
 .h3-principal {
     margin-top: 2.5rem;
     text-align: center;
     font-size: 38px;
 }
 
+/* Estilos para Elementos em Negrito */
 b {
     font-size: 45px;
 }
 
+/* Estilos para Títulos H4 e H5 */
+h4,
+h5 {
+    text-align: center;
+}
+
+/* Estilos para Elementos Fortes em H4 */
+h4 strong {
+    color: var(--bg);
+}
+
+/* Espaçamento Inferior para Elementos Impactantes */
 .impact {
     margin-bottom: 5rem;
 }
 
+/* Consulta de Mídia para Telas Pequenas (max-width: 768px) */
 @media (max-width: 768px) {
+
+    /* Ajuste para o Botão de Projetos em Telas Pequenas */
     #btnProjetos {
         margin-bottom: 5%;
     }
