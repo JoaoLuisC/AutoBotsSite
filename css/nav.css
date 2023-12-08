@@ -1,23 +1,27 @@
+/* Importação de fontes */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
 
+/* Variáveis Globais */
 :root {
     --bg: #2c2b54;
     --text: #FFF;
 }
 
+/* Estilos Globais para HTML e Body */
 html,
 body {
     font-family: "Poppins";
     caret-color: transparent;
 }
 
+/* Estilos para a Barra de Navegação */
 .navbar {
-    padding-top: 15px; 
-    padding-bottom: 15px; 
+    padding-top: 15px;
+    padding-bottom: 15px;
     box-shadow: 0 0.1rem 0.5rem var(--bg);
 }
 
+/* Estilos para Imagens dentro de Links na Navegação */
 nav a img {
     margin-left: 5%;
 }
-
