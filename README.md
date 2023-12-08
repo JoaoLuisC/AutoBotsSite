@@ -1,4 +1,4 @@
-# Autobots Group Website
+# Autobots Website
 
 ## Introdução
 Seja muito bem-vindo ao repositório do site do grupo Autobots, uma iniciativa desenvolvida como parte do Projeto de Prática de Extensão 2 da Faculdade IFSMG - Campus Machado!
