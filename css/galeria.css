@@ -1,46 +1,56 @@
+/* Importação de fontes */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
 
+/* Variáveis Globais */
 :root {
     --bg: #2c2b54;
     --text: #FFF;
 }
 
+/* Estilo de Fundo */
 .bg-color {
     background-color: var(--bg);
 }
 
+/* Estilos Globais para HTML e Body */
 html,
 body {
     font-family: "Poppins";
     caret-color: transparent;
 }
 
+/* Estilos do Título Principal da Galeria */
 #titulo-main-galeria {
     padding-bottom: 3%;
     padding-top: 4%;
     text-align: center;
     font-size: 50px;
-
 }
 
+/* Estilos para a Seção Principal de Projetos */
 #main-projects {
     padding: 0 5% 5% 5%;
 }
 
+/* Estilos para o Botão "Galeria" */
+#btnGaleria {
+    margin-top: 5%;
+    padding: 10px;
+    background: var(--bg);
+}
+
+#btnGaleria a {
+    color: var(--text);
+}
+
+/* Consulta de Mídia para Telas Pequenas (max-width: 650px) */
 @media screen and (max-width: 650px) {
+
+    /* Ajustes para Telas Pequenas no Título Principal da Galeria */
     #titulo-main-galeria {
         padding-bottom: 3%;
         padding-top: 15%;
         text-align: center;
         font-size: 50px;
-
     }
-}
-
-#btnGaleria {
-    margin-top: 5%;
-}
-
-#btnGaleria a {
-    color: #FFF;
 }
