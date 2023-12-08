@@ -18,3 +18,31 @@ o site utiliza JavaScript para interações dinâmicas, HTML para estruturação
 - Mapa interativo mostrando a localização do laboratório do grupo.
 
 
+## Como Acessar
+
+Para acessar e explorar o site do grupo Autobots, siga os passos abaixo:
+
+1. Abra seu navegador da web favorito.
+
+2. Visite o seguinte link: [Autobots - Projetos](https://autobots.tec.br/projetos.html)
+
+Agora você está pronto para explorar as atividades, projetos e iniciativas do grupo Autobots. Divirta-se navegando pelo nosso site!
+
+## Autores
+Este projeto foi desenvolvido por:
+- Leonardo Paiva pinto - [Linkedin](https://www.linkedin.com/in/leonardopaiva12/)
+- João Luís Cardoso    - [Linkedin](https://www.linkedin.com/in/JoaoLuisCardoso/)
+
+
+<br>
+<br>
+
+## Imagens do site
+
+![index-3](https://github.com/leopaivap/AutoBotsSite/assets/103074041/6fa26e80-9f1f-43fa-8fb0-b9d47c24bfe4)
+<br>
+<br>
+![index-2](https://github.com/leopaivap/AutoBotsSite/assets/103074041/219229f4-335e-4e11-b140-03c42936e6c7)
+<br>
+<br>
+![galeria-1](https://github.com/leopaivap/AutoBotsSite/assets/103074041/386ff031-90ba-4d1c-9fad-63ff5fde0f3d)
