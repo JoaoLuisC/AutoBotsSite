@@ -11,7 +11,7 @@ function loadNavbar() {
             console.error('Erro ao carregar a barra de navegação:', error);
         });
 
-        var myNavbar = new bootstrap.Navbar(document.getElementById('navbar-container'));
+    var myNavbar = new bootstrap.Navbar(document.getElementById('navbar-container'));
 }
 document.addEventListener("DOMContentLoaded", loadNavbar);
 
