@@ -24,7 +24,7 @@ Para acessar e explorar o site do grupo Autobots, siga os passos abaixo:
 
 1. Abra seu navegador da web favorito.
 
-2. Visite o seguinte link: [Autobots - Projetos](https://autobots.tec.br/projetos.html)
+2. Visite o seguinte link: [Autobots - HomePage](https://autobots.tec.br/index.html)
 
 Agora você está pronto para explorar as atividades, projetos e iniciativas do grupo Autobots. Divirta-se navegando pelo nosso site!
 
