@@ -10,7 +10,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="icon" href="../assets/logoAuto.png" type="image/x-icon">    
+    <link rel="icon" href="../assets/logoAuto.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="../css/projetos.css">
     <link rel="icon" href="assets/logoAuto.png" type="image/x-icon">
 
@@ -27,7 +27,7 @@
         <h3 class="h3-principal title">
             <b>AUTOBOTS</b>
             <br>
-            Banco de Projetos Autobots
+            Banco de Projetos
         </h3>
 
         <section class="row row-cols-1 row-cols-md-4 g-4" id="project-container">
@@ -37,67 +37,66 @@
         <!-- Modal -->
         <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-md">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h5 class="modal-title" id="projectModalLabel">Detalhes do Projeto</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
-                </div>
-                <div class="modal-body" id="projectModalBody">
-                <!-- Conteúdo do modal vai aqui -->
-                </div>
-            </div>
-            </div>
-        </div>
-
-       <!-- Como adicionar ao projeto -->
-       <section class="section-add-projetos">
-
-        <button type="button" class="btn bg-color btn-secondary btn-lg d-block mx-auto mb-5" id="button-add-projetos" data-toggle="modal" data-target="#myModal">
-            Como adicionar projetos
-        </button>
-    
-        <!-- Modal -->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="myModalLabel">Como adicionar projetos:</h5>
+                        <h5 class="modal-title" id="projectModalLabel">Detalhes do Projeto</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
                     </div>
-                    <div class="modal-body">
-    
-                        <div class="div-instrucoes">
-                            <p>Para adicionar um novo projeto ao banco de dados, siga as instruções abaixo:</p>
-    
-                            <ol class="ol-desc row row-cols-1">
-                                <li class="div-instrucoes-li li-intrucoes">Solicite permissão ao professor responsável.</li>
-                                <li class="div-instrucoes-li li-intrucoes">Inclua os dados na planilha na seguinte ordem:
-                                    <ol class="ol-desc-execelInsert">
-                                        <li>Link do repositório</li>
-                                        <li>Descrição do projeto</li>
-                                        <li>Nome do projeto</li>
-                                        <li>Link da imagem no repositório</li>
-                                    </ol>
-                                </li>
-                                <li class="div-instrucoes-li li-intrucoes">Crie um arquivo README.md no repositório para melhor visualização.</li>
-                            </ol>
-    
-                        </div>
-    
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <div class="modal-body" id="projectModalBody">
+                        <!-- Conteúdo do modal vai aqui -->
                     </div>
                 </div>
             </div>
         </div>
-    
-    </section>
 
-       
-       
+        <!-- Como adicionar ao projeto -->
+        <section class="section-add-projetos">
 
+            <button type="button" class="btn bg-color btn-lg d-block mx-auto mb-5" id="button-add-projetos"
+                data-toggle="modal" data-target="#myModal">
+                Como adicionar projetos
+            </button>
 
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="myModalLabel">Como adicionar projetos:</h5>
+                        </div>
+                        <div class="modal-body">
 
+                            <div class="div-instrucoes">
+                                <p>Para adicionar um novo projeto ao banco de dados, siga as instruções abaixo:</p>
+
+                                <ol class="ol-desc row row-cols-1">
+                                    <li class="div-instrucoes-li li-intrucoes">Solicite permissão ao professor
+                                        responsável.</li>
+                                    <li class="div-instrucoes-li li-intrucoes">Inclua os dados na planilha na seguinte
+                                        ordem:
+                                        <ol class="ol-desc-execelInsert">
+                                            <li>Link do repositório</li>
+                                            <li>Descrição do projeto</li>
+                                            <li>Nome do projeto</li>
+                                            <li>Link da imagem no repositório</li>
+                                        </ol>
+                                    </li>
+                                    <li class="div-instrucoes-li li-intrucoes">Crie um arquivo README.md no repositório
+                                        para melhor visualização.</li>
+                                </ol>
+
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </main>
 
     <footer>
@@ -112,7 +111,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    
+
 </body>
 
 </html>

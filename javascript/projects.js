@@ -10,15 +10,15 @@ function loadGoogleSheetData() {
         range: 'projects' // Substitua pelo nome da aba que você deseja ler
     }).then(function (response) {
         const data = response.result.values;
-        
-        if(data.length > 0){
+
+        if (data.length > 0) {
             const projectsContainer = document.getElementById('project-container');
             data.forEach(function (row) {
                 const urlRepositorio = row[0];
                 const desc = row[1];
                 const nomeProjeto = row[2];
                 const urlImg = row[3];
-            
+
                 const projectDiv = document.createElement('div');
                 projectDiv.className = 'col-md-4';
                 projectDiv.innerHTML = `
@@ -33,7 +33,7 @@ function loadGoogleSheetData() {
                 `;
                 projectsContainer.appendChild(projectDiv);
             });
-            
+
             //modal saiba mais
             document.querySelectorAll('.btn-dark').forEach(function (btn) {
                 btn.addEventListener('click', function () {
@@ -42,7 +42,7 @@ function loadGoogleSheetData() {
                     const repo = this.getAttribute('data-ulrRepo');
                     const nomeProjeto = this.getAttribute('data-nomeProj');
                     const img = this.getAttribute('data-img');
-            
+
                     modalBody.innerHTML = `
                         <h3>${nomeProjeto}</h3>
                         <img src="${img}" alt="${nomeProjeto}" class="img-fluid">
@@ -53,10 +53,10 @@ function loadGoogleSheetData() {
                 });
             });
 
-            
+
         }
 
-        
+
     });
 }
 

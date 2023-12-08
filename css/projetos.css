@@ -1,35 +1,49 @@
+/* Importação de fontes */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
 
+/* Variáveis Globais */
 :root {
     --bg: #2c2b54;
     --text: #FFF;
 }
 
+/* Estilo de Fundo */
 .bg-color {
     background-color: var(--bg);
 }
 
+/* Estilos Globais para HTML e Body */
 html,
 body {
     font-family: "Poppins";
     caret-color: transparent;
 }
 
+/* Estilos para Título */
 .title {
-    margin-top: 6rem;
+    margin-top: 2.5rem;
     text-align: center;
     font-size: 38px;
     padding-bottom: 1em;
 }
 
+/* Estilos para Container de Projetos */
 #project-container {
     padding-bottom: 3em;
 }
 
+/* Estilos para Lista de Instruções */
 .li-intrucoes {
     padding-bottom: 1em;
 }
 
+/* Estilos para Botão de Galeria */
 #btnGaleria-a {
     font-size: 100px;
+}
+
+/* Estilos para Botão Adicionar Projetos */
+#button-add-projetos {
+    background: var(--bg);
+    color: var(--text);
 }
