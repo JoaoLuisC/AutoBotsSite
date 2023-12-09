@@ -30,7 +30,7 @@ Agora você está pronto para explorar as atividades, projetos e iniciativas do 
 
 ## Autores
 Este projeto foi desenvolvido por:
-- Leonardo Paiva pinto - [Linkedin](https://www.linkedin.com/in/leonardopaiva12/)
+- Leonardo Paiva Pinto - [Linkedin](https://www.linkedin.com/in/leonardopaiva12/)
 - João Luís Cardoso    - [Linkedin](https://www.linkedin.com/in/JoaoLuisCardoso/)
 
 
